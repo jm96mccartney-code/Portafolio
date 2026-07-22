@@ -8,7 +8,7 @@ import {
   VoiceDemo
 } from '../types';
 
-import profilePhoto from '../assets/images/jorge_profile_photo_1784691892716.jpg';
+import profilePhoto from '../assets/images/profile_photo_new.jpg';
 import projectBoliviaTv from '../assets/images/project_bolivia_tv_1784691904763.jpg';
 import projectTedx from '../assets/images/project_tedx_design_1784691914763.jpg';
 import projectAiJournalism from '../assets/images/project_ai_journalism_1784691925991.jpg';

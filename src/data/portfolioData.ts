@@ -31,6 +31,25 @@ export const personalData: PersonalInfo = {
 
 export const workExperiences: WorkExperience[] = [
   {
+    id: "exp-red-uno",
+    company: "Red Uno de Bolivia S.A.",
+    role: "Consultor Externo",
+    period: "15/04/26 al 22/06/26",
+    startDate: "2026-04-15",
+    endDate: "2026-06-22",
+    type: "Trabajo",
+    description: "Consultoría externa en producción audiovisual y postproducción para el área de contenidos del canal de televisión de alcance nacional.",
+    responsibilities: [
+      "Edición y postproducción de piezas audiovisuales para programación informativa y de entretenimiento.",
+      "Asesoría en flujos de trabajo de edición y optimización de recursos técnicos.",
+      "Color grading, mezcla de audio y motion graphics para reportajes especiales.",
+      "Coordinación directa con el equipo de producción para cumplimiento de entregas en deadline."
+    ],
+    skillsUsed: ["Adobe Premiere Pro", "After Effects", "DaVinci Resolve", "Postproducción", "Asesoría Técnica"],
+    logoText: "UNO",
+    badgeColor: "bg-red-700/10 text-red-700 border-red-600/20"
+  },
+  {
     id: "exp-bolivia-tv",
     company: "Bolivia Tv",
     role: "Editor de Post Producción",

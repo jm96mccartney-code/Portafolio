@@ -12,6 +12,23 @@ import profilePhoto from '../assets/images/profile_photo_new.jpg';
 import projectBoliviaTv from '../assets/images/project_bolivia_tv_1784691904763.jpg';
 import projectTedx from '../assets/images/project_tedx_design_1784691914763.jpg';
 import projectAiJournalism from '../assets/images/project_ai_journalism_1784691925991.jpg';
+import ill1 from '../assets/images/illustrations/ill_1.png';
+import ill2 from '../assets/images/illustrations/ill_2.png';
+import ill3 from '../assets/images/illustrations/ill_3.png';
+import ill4 from '../assets/images/illustrations/ill_4.png';
+import ill5 from '../assets/images/illustrations/ill_5.png';
+import ill6 from '../assets/images/illustrations/ill_6.png';
+import ill7 from '../assets/images/illustrations/ill_7.png';
+import ill8 from '../assets/images/illustrations/ill_8.png';
+import ill9 from '../assets/images/illustrations/ill_9.png';
+import ill10 from '../assets/images/illustrations/ill_10.png';
+import ill11 from '../assets/images/illustrations/ill_11.png';
+import ill12 from '../assets/images/illustrations/ill_12.png';
+import ill13 from '../assets/images/illustrations/ill_13.png';
+import ill14 from '../assets/images/illustrations/ill_14.png';
+import ill15 from '../assets/images/illustrations/ill_15.png';
+import ill16 from '../assets/images/illustrations/ill_16.png';
+import ill17 from '../assets/images/illustrations/ill_17.jpg';
 
 export const personalData: PersonalInfo = {
   name: "Jorge Martin Caritas Rocha",
@@ -322,6 +339,312 @@ export const portfolioProjects: ProjectItem[] = [
       "Registro modulado para documental y noticias",
       "Tonalidad cálida y clara en español neutro",
       "Dominio de intenciones comerciales e institucionales"
+    ]
+  },
+  {
+    id: "ill-1",
+    title: "Composición con Monedas y Elementos Financieros",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill1,
+    description: "Ilustración vectorial conceptual sobre economía y finanzas, aplicable a campañas de comunicación corporativa y contenido digital para medios.",
+    fullDetails: "Composición digital creada con técnicas de ilustración vectorial, combinando elementos simbólicos del ámbito financiero. Apta para piezas gráficas de prensa económica, reportajes de actualidad y diseño de infografías interactivas. Estilo limpio con paleta de colores contrastantes y sombreado suave para profundidad visual.",
+    tools: ["Adobe Illustrator", "Diseño Vectorial", "Composición Digital", "Paleta Corporativa"],
+    mediaType: "image",
+    highlights: [
+      "Ilustración vectorial scalable a cualquier formato",
+      "Composición equilibrada con jerarquía visual clara",
+      "Apto para medios impresos y digitales"
+    ]
+  },
+  {
+    id: "ill-2",
+    title: "Icono de Claqueta Cinematográfica",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill2,
+    description: "Ilustración minimalista de claqueta de cine, representativa del branding para productoras audiovisuales y estudios de postproducción.",
+    fullDetails: "Diseño vectorial de claqueta cinematográfica con líneas definidas y ángulos precisos. Elaborada bajo principios de diseño minimalista con enfoque en la simetría y el contraste visual. Ideal como isotipo o elemento gráfico para marcas del sector audiovisual.",
+    tools: ["Illustrator", "Diseño de Iconos", "Vectorización", "Branding"],
+    mediaType: "image",
+    highlights: [
+      "Estilo minimalista profesional",
+      "Alta legibilidad en escala reducida",
+      "Versátil para aplicaciones de branding"
+    ]
+  },
+  {
+    id: "ill-3",
+    title: "Tira de Película y Rodillo de Cine",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill3,
+    description: "Ilustración clásica de cinta cinematográfica con fotogramas, representativa de la industria del cine y la producción audiovisual.",
+    fullDetails: "Ilustración detallada de carrete y tira de película con fotogramas secuenciales. Técnica de sombreado por capas para lograr efecto tridimensional. Utilizada como referencia visual para diseños de estudio de filmación, salas de cine y contenido relacionado con la cinematografía.",
+    tools: ["Photoshop", "Ilustración Digital", "Sombreado por Capas", "Texturizado"],
+    mediaType: "image",
+    highlights: [
+      "Detalle realista con texturas analógicas",
+      "Efecto de profundidad tridimensional",
+      "Representación icónica del séptimo arte"
+    ]
+  },
+  {
+    id: "ill-4",
+    title: "Kit de Herramientas de Oficina y Diseño",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill4,
+    description: "Ilustración de conjunto de herramientas de oficina y diseño gráfico, aplicable a contenido sobre productividad y estaciones de trabajo creativas.",
+    fullDetails: "Composición de iconos y herramientas de diseño gráfico y papelería organizacional, incluyendo elementos como lápices, reglas y dispositivos. Ilustración plana con paleta de colores armónica. Adecuada como imagen conceptual para artículos sobre diseño, comunicación visual y branding personal.",
+    tools: ["Illustrator", "Diseño Plano", "Composición Modular", "Paleta Cromática"],
+    mediaType: "image",
+    highlights: [
+      "Estilo flat design moderno",
+      "Composición modular reutilizable",
+      "Aplicable a contenido de diseño editorial"
+    ]
+  },
+  {
+    id: "ill-5",
+    title: "Cámara con Cinta de Película",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill5,
+    description: "Ilustración conceptual que fusiona una cámara fotográfica con un rodillo de película, simbolizando la narrativa visual en la era digital.",
+    fullDetails: "Composición ilustrativa que integra una cámara réflex con una cinta de película emergente, creando una metáfora visual entre la fotografía clásica y la producción de contenido moderna. Técnica de ilustración híbrida entre vectorial y pintura digital.",
+    tools: ["Photoshop", "Illustrator", "Fotomontaje", "Composición Híbrida"],
+    mediaType: "image",
+    highlights: [
+      "Metáfora visual entre fotografía análoga y digital",
+      "Fusión de técnicas vectoriales y rasterizadas",
+      "Alto impacto conceptual para portafolio"
+    ]
+  },
+  {
+    id: "ill-6",
+    title: "Correo Electrónico y Comunicación Digital",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill6,
+    description: "Ilustración conceptual de comunicación digital centrada en el correo electrónico como herramienta de contacto profesional y networking.",
+    fullDetails: "Diseño vectorial que representa el ecosistema de la comunicación digital con énfasis en plataformas de mensajería y correo corporativo. Aplicable como imagen complementaria en secciones de contacto profesional, servicios de consultoría en comunicación y diseño de landing pages para portafolio digital.",
+    tools: ["Illustrator", "Diseño de Interfaz", "Iconografía Digital", "UX Conceptual"],
+    mediaType: "image",
+    highlights: [
+      "Iconografía clara de comunicación digital",
+      "Diseño adaptable a UI/UX",
+      "Representación visual de networking profesional"
+    ]
+  },
+  {
+    id: "ill-7",
+    title: "Notificaciones y Alertas Visuales",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill7,
+    description: "Ilustración de sistema de notificaciones y alertas para plataformas digitales, aplicable a diseño UX/UI y gestión de contenidos.",
+    fullDetails: "Representación vectorial de una campana de notificaciones con ondas de señal, diseñada bajo principios de comunicación visual efectiva. Forma parte de una serie de iconografía para interfaces digitales de medios de comunicación y redes informativas. Incluye estudio de legibilidad en diferentes escalas y resolución.",
+    tools: ["Illustrator", "Diseño UX/UI", "Sistema de Iconos", "Escalabilidad Vectorial"],
+    mediaType: "image",
+    highlights: [
+      "Optimizado para interfaces digitales",
+      "Alta legibilidad en múltiples resoluciones",
+      "Consistente con sistemas de diseño modernos"
+    ]
+  },
+  {
+    id: "ill-8",
+    title: "Proyector Audiovisual y Sala de Cine",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill8,
+    description: "Ilustración de proyector cinematográfico en sala oscura, representación icónica de la proyección audiovisual en medios y eventos.",
+    fullDetails: "Composición digital de un proyector de cine en funcionamiento con haz de luz y partículas en suspensión. Técnica de capas de luz y sombra para recrear ambiente de sala de proyección. Adecuada como imagen conceptual para servicios de postproducción, creación de contenido multimedia y organización de eventos audiovisuales.",
+    tools: ["Photoshop", "After Effects", "Composición Lumínica", "Atmósfera Digital"],
+    mediaType: "image",
+    highlights: [
+      "Efecto de iluminación atmosférica realista",
+      "Ambientación cinematográfica profesional",
+      "Simboliza producción y proyección de contenido"
+    ]
+  },
+  {
+    id: "ill-9",
+    title: "Fotógrafo Profesional en Estudio",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill9,
+    description: "Ilustración de fotógrafo profesional con equipo de cámara, representativa del servicio de fotografía corporativa y sesiones de retrato.",
+    fullDetails: "Ilustración vectorial de un fotógrafo en acción con cámara réflex digital. Diseñada con curvas suaves y paleta de colores equilibrada para transmitir profesionalismo. Referencia visual para servicios de fotografía publicitaria, retrato corporativo y cobertura de eventos. Incluye estudio de proporciones anatómicas y composición de la figura en movimiento.",
+    tools: ["Illustrator", "Figura Humana Vectorial", "Estudio de Proporciones", "Diseño de Personajes"],
+    mediaType: "image",
+    highlights: [
+      "Figura humana estilizada con movimiento natural",
+      "Paleta de colores corporativa profesional",
+      "Representación dinámica del oficio fotográfico"
+    ]
+  },
+  {
+    id: "ill-10",
+    title: "Mascota Editorial para Revista Infantil",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill10,
+    description: "Ilustración estilo cartoon de felino, aplicable al diseño editorial de secciones infantiles y contenido educativo en medios de comunicación.",
+    fullDetails: "Ilustración vectorial de personaje felino en estilo cartoon, desarrollada con capas de color plano y delineado suave. Orientada al diseño editorial de suplementos infantiles en periódicos y revistas digitales. Técnica de vectorización con simplificación de formas para garantizar reconocibilidad a diferentes escalas de impresión.",
+    tools: ["Illustrator", "Diseño de Personajes", "Color Plano", "Delineado Vectorial"],
+    mediaType: "image",
+    highlights: [
+      "Estilo cartoon amigable para audiencia infantil",
+      "Formas simplificadas para alta escalabilidad",
+      "Aplicable a contenido editorial y redes sociales"
+    ]
+  },
+  {
+    id: "ill-11",
+    title: "Perfil Femenino Corporativo",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill11,
+    description: "Ilustración conceptual de perfil femenino profesional, aplicable a diseño de marca personal, portafolios digitales y contenido de recursos humanos.",
+    fullDetails: "Ilustración de perfil femenino estilizado con elementos decorativos de comunicación visual. Diseñada para secciones de 'sobre mí', biografías profesionales y páginas de equipo en sitios corporativos. Técnica mixta de silhouette con acentos de color que dirigen la atención visual hacia el área de comunicación.",
+    tools: ["Illustrator", "Silueta Vectorial", "Composición Decorativa", "Diseño Corporativo"],
+    mediaType: "image",
+    highlights: [
+      "Estilo elegante con acentos cromáticos",
+      "Orientado a marca personal y corporativa",
+      "Equilibrio entre figura y espacio negativo"
+    ]
+  },
+  {
+    id: "ill-12",
+    title: "Plataforma de Comunicación Empresarial",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill12,
+    description: "Ilustración de ecosistema de comunicación empresarial con múltiples canales, representativa del trabajo en medios y agencias de comunicación.",
+    fullDetails: "Composición de iconos y elementos visuales que representan un ecosistema completo de comunicación empresarial: correo, mensajería, videollamadas y notificaciones. Diseñada bajo sistema de grilla y consistencia estilística. Referencia para diseño de intranets, plataformas de comunicación interna y landing pages de agencias de comunicación.",
+    tools: ["Illustrator", "Sistema de Diseño", "Grid Visual", "Comunicación Visual"],
+    mediaType: "image",
+    highlights: [
+      "Sistema de iconos consistente",
+      "Representación de multicanalidad",
+      "Aplicable a plataformas empresariales"
+    ]
+  },
+  {
+    id: "ill-13",
+    title: "Industria Cinematográfica y Producción",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill13,
+    description: "Ilustración conceptual de la industria del cine, integrando elementos clásicos y modernos de producción audiovisual.",
+    fullDetails: "Composición ilustrativa que integra simbología clásica del cine (claqueta, película, reflector) con elementos contemporáneos de producción digital. Técnica de capas superpuestas para crear sensación de profundidad y dinamismo. Adecuada para catálogos de servicios de producción audiovisual, escuelas de cine y agencias creativas.",
+    tools: ["Photoshop", "Composición Digital", "Fotomontaje Creativo", "Teoría del Color"],
+    mediaType: "image",
+    highlights: [
+      "Fusión de simbología clásica y moderna",
+      "Jerarquía visual dinámica",
+      "Profundidad mediante capas superpuestas"
+    ]
+  },
+  {
+    id: "ill-14",
+    title: "Arte Digital y Estilo Manga",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill14,
+    description: "Ilustración estilo anime/manga, demostrando versatilidad en técnicas de ilustración digital para contenido juvenil y entretenimiento.",
+    fullDetails: "Ilustración digital con influencias del estilo anime japonés, desarrollada con técnicas de pintura digital y difuminado. Aplicable a diseño de personajes para animación 2D, contenido interactivo y campañas dirigidas a público juvenil. Demuestra dominio de proporciones estilizadas y narrativa visual a través de la expresión del personaje.",
+    tools: ["Clip Studio Paint", "Photoshop", "Pintura Digital", "Diseño de Personajes Anime"],
+    mediaType: "image",
+    highlights: [
+      "Técnica de difuminado y pintura digital",
+      "Estilo de ilustración internacional (manga/anime)",
+      "Versatilidad para contenido de entretenimiento"
+    ]
+  },
+  {
+    id: "ill-15",
+    title: "Estación de Trabajo Digital Creativa",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill15,
+    description: "Ilustración de setup de trabajo digital con laptop y elementos multimedia, representativa de espacios de creación de contenido y home office.",
+    fullDetails: "Composición vectorial de una estación de trabajo digital completa con laptop, dispositivos móviles y elementos de papelería. Diseñada con perspectiva isométrica que permite visualizar el espacio de trabajo desde un ángulo dinámico. Ideal para contenido sobre trabajo remoto, productividad creativa y diseño de espacios de creación audiovisual.",
+    tools: ["Illustrator", "Perspectiva Isométrica", "Diseño de Espacios", "Illustración Técnica"],
+    mediaType: "image",
+    highlights: [
+      "Perspectiva isométrica detallada",
+      "Representación de ecosistema creativo digital",
+      "Alto nivel de detalle en elementos tecnológicos"
+    ]
+  },
+  {
+    id: "ill-16",
+    title: "Cuadrícula Abstracta y Branding",
+    category: "illustration",
+    categoryLabel: "Ilustración Vectorial",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill16,
+    description: "Composición abstracta geométrica sobre cuadrícula, demostrando principios de diseño gráfico aplicados a fondos visuales y branding.",
+    fullDetails: "Composición abstracta desarrollada sobre una retícula geométrica con patrones repetitivos y degradados. Explora principios de diseño como ritmo visual, equilibrio asimétrico y profundidad mediante superposición de elementos. Orientada a la creación de fondos visuales corporativos, texturas digitales y elementos de identidad visual para marcas tecnológicas y creativas.",
+    tools: ["Illustrator", "Diseño Geométrico", "Patrones Vectoriales", "Degradados", "Composición Abstracta"],
+    mediaType: "image",
+    highlights: [
+      "Estudio avanzado de retículas y patrones",
+      "De gradados y transparencias complejas",
+      "Aplicable a branding corporativo moderno"
+    ]
+  },
+  {
+    id: "ill-17",
+    title: "Fotografía Astronómica y Edición Nocturna",
+    category: "illustration",
+    categoryLabel: "Fotografía de Paisaje",
+    organization: "Pixabay (Ejemplo Visual)",
+    date: "2024",
+    thumbnail: ill17,
+    description: "Composición de cielo estrellado con elementos naturales, demostrando técnicas de fotografía de larga exposición y postproducción nocturna.",
+    fullDetails: "Captura fotográfica de cielo nocturno con galaxia y siluetas de árboles, procesada con técnicas de edición avanzada en Lightroom y Photoshop. El trabajo incluye ajuste selectivo de temperaturas de color, reducción de ruido digital en altos ISO y realce de la Vía Láctea mediante máscaras de luminosidad. Demuestra competencia en fotografía de paisaje nocturno y postproducción especializada.",
+    tools: ["Lightroom", "Photoshop", "Fotografía Nocturna", "Larga Exposición", "Máscaras de Luminosidad"],
+    mediaType: "image",
+    highlights: [
+      "Fotografía de larga exposición en condiciones de baja luz",
+      "Edición avanzada de astrofotografía",
+      "Reducción de ruido y realce selectivo de constelaciones"
     ]
   }
 ];

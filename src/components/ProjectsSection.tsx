@@ -13,6 +13,7 @@ export const ProjectsSection: React.FC = () => {
     { id: 'design', label: 'Diseño Gráfico' },
     { id: 'journalism', label: 'Periodismo & IA' },
     { id: 'voiceover', label: 'Locución & Audio' },
+    { id: 'illustration', label: 'Ilustraciones' },
   ];
 
   const filteredProjects = activeTab === 'all'

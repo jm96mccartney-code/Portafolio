@@ -60,7 +60,7 @@ export interface TechnicalSkill {
 export interface ProjectItem {
   id: string;
   title: string;
-  category: 'postproduction' | 'design' | 'journalism' | 'voiceover';
+  category: 'postproduction' | 'design' | 'journalism' | 'voiceover' | 'illustration';
   categoryLabel: string;
   organization: string;
   date: string;
